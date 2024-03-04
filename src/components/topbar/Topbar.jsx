@@ -3,7 +3,6 @@ import { Chat, Notifications, Person, Search } from '@mui/icons-material';
 
 export default function Topbar() {
   return (
-    <div>
         <div className="topbarContainer">
           <div className="topbarLeft">
              <span className="logo">Lamasocial</span>
@@ -42,6 +41,5 @@ export default function Topbar() {
             <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
           </div>
         </div>
-    </div>
   )
 }

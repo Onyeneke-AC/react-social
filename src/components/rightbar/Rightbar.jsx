@@ -1,4 +1,5 @@
 import React from './rightbar.css'
+import {Users} from '../../dummyData'
 
 export default function Rightbar() {
   return (
@@ -15,15 +16,7 @@ export default function Rightbar() {
             Online Friends
           </h4>
           <ul className="onlineFriendList">
-            <li className="rightbarFriend">
-              <div className="rightbarProfileImgContainer">
-                <img src="assets/person/3.jpeg" alt="" className="rightbarProfileImg" />
-                <span className="rightbarOnline"></span>
-              </div>
-              <span className="rightbarUsername">
-                Igboabuchukwu Wisdom
-              </span>
-            </li>
+            
           </ul>
         </div>
     </div>

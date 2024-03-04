@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-.rightbarFriendList {
+.onlineFriendList {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -42,6 +42,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    margin-left: 0;
 }
 
 .rightbarProfileImgContainer {
