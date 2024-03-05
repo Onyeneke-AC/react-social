@@ -2,7 +2,7 @@ import React from './rightbar.css'
 import { Users } from '../../dummyData'
 import Online from '../online/Online'
 
-export default function Rightbar() {
+export default function Rightbar({profile}) {
   return (
     <div className='rightbar'>
         <div className="rightbarWrapper">
